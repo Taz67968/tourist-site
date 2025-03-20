@@ -10,12 +10,18 @@ function Home() {
       <NavBar />
 
       <section className="fex">
+      <div className="bfex" >
       <div className="ex">
         <h1>Experience the beauty of Rwanda with us </h1>
         <p>Discover the Land of a Thousand Hills</p>
       </div>
 
-    
+      <div className="back">
+        <div><img src="src\assets\images\back button.png" alt="" /></div>
+        <div><img src="src\assets\images\back button (1).png" alt="" /></div>
+      </div>
+      </div>
+      
       </section>
 
       <section className="s1">
@@ -166,6 +172,11 @@ function Home() {
               elit sed pretium, egestas sed sit.
             </p>
           </div>
+        </div>
+        <div className="bigc">
+        <div className="cone"></div>
+        <div className="ctwo"></div>
+        <div className="cthree"></div>
         </div>
       </section>
 

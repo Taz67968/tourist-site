@@ -3,14 +3,15 @@ return (
     <>
     <div className="container">
         <div className="bigv">
+        <div className="v">
+                <img src="\src\assets\images\pi.png" alt="" />
+                <p>bbonteemma@gmail.com</p>
+            </div>
             <div className="v">
                 <img src="\src\assets\images\Vector (1).png" alt="" />
                 <p>+250784688641</p>
             </div>
-            <div className="v">
-                <img src="\src\assets\images\pi.png" alt="" />
-                <p>bbonteemma@gmail.com</p>
-            </div>
+            
         </div>
 
         <nav className="p">
