@@ -1,6 +1,12 @@
 import Banner from "../components/Banner";
 import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
+import Social7 from '../assets/images/Social button (7).png'
+import Social6 from '../assets/images/Social button (6).png'
+import Social5 from '../assets/images/Social button (5).png'
+import Social4 from '../assets/images/Social button (4).png'
+import PhoneIcon from '../assets/images/Vector (4).png'
+import EmailIcon from '../assets/images/Vector (3).png'
 
 export default function ContactUs() {
   return (
@@ -84,10 +90,10 @@ export default function ContactUs() {
         <div className="y">
             <h1>Social media</h1>
             <div className="x">
-            <a href=""><img src="\src\assets\images\Social button (7).png" alt="" /></a>
-            <a href=""><img src="\src\assets\images\Social button (6).png" alt="" /></a>
-            <a href=""><img src="\src\assets\images\Social button (5).png" alt="" /></a>
-            <a href=""><img src="\src\assets\images\Social button (4).png" alt="" /></a>
+            <a href=""><img src={Social7} alt="" /></a>
+            <a href=""><img src={Social6} alt="" /></a>
+            <a href=""><img src={Social5} alt="" /></a>
+            <a href=""><img src={Social4} alt="" /></a>
             </div>
         </div>
 
@@ -95,11 +101,11 @@ export default function ContactUs() {
             <h1>Email & phone</h1>
         <div className="bigv">
             <div className="v">
-                <img className="m" src="\src\assets\images\Vector (4).png" alt="" />
+                <img className="m" src={PhoneIcon} alt="" />
                 <p>+250784688641</p>
             </div>
             <div className="v">
-                <img src="\src\assets\images\Vector (3).png" alt="" />
+                <img src={EmailIcon} alt="" />
                 <p>bbonteemma@gmail.com</p>
             </div>
         </div>

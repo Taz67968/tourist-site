@@ -1,6 +1,9 @@
 import Banner from "../components/Banner";
 import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
+import HeroImg from '../assets/images/Image Placeholder (4).png'
+import ImgA from '../assets/images/Image Placeholder (5).png'
+import ImgB from '../assets/images/Image Placeholder (6).png'
 
 function About() {
   return (
@@ -42,7 +45,7 @@ function About() {
             </button>
           </section>
         </div>
-        <img src="\src\assets\images\Image Placeholder (4).png" alt="" />
+        <img src={HeroImg} alt="About hero" />
       </div>
 
       <div className="z">
@@ -50,7 +53,7 @@ function About() {
       </div>
       <section className="bwiz">
         <div className="wiz">
-          <img src="\src\assets\images\Image Placeholder (5).png" alt="" />
+          <img src={ImgA} alt="About visual A" />
           <p>
             Welcome to Africa Wizzy Safari, a leading tourism company based in
             Rwanda. We have been in business for over 5 years and are committed
@@ -70,11 +73,11 @@ function About() {
             experience while exploring the stunning landscapes and rich culture
             of Rwanda.
           </p>
-          <img src="\src\assets\images\Image Placeholder (6).png" alt="" />
+          <img src={ImgB} alt="About visual B" />
         </div>
 
         <div className="wiz">
-          <img src="\src\assets\images\Image Placeholder (5).png" alt="" />
+          <img src={ImgA} alt="About visual A" />
           <div>
             <p>
               We are proud to have received numerous awards and accolades for

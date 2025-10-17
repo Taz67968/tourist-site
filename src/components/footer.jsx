@@ -1,15 +1,30 @@
+import LogoImg from '../assets/images/Rectangle 645.png'
+import Social1 from '../assets/images/Social button (1).png'
+import Social2 from '../assets/images/Social button.png'
+import Social3 from '../assets/images/Social button (2).png'
+import Social4 from '../assets/images/Social button (3).png'
+import SendIcon from '../assets/images/Group 18.png'
+
 function Footer() {
   return (
     <>
       <footer>
         <div className="f">
           <h1>If you have any question, Let us help you!</h1>
-          <img src="\src\assets\images\Rectangle 645.png" alt="" />
+          <img src={LogoImg} alt="Africa Wizzy Safari" />
           <div className="e">
-          <a href=""><img src="\src\assets\images\Social button (1).png" alt="" /></a>
-            <a href=""><img src="\src\assets\images\Social button.png" alt="" /></a>
-            <a href=""><img src="\src\assets\images\Social button (2).png" alt="" /></a>
-            <a href=""><img src="\src\assets\images\Social button (3).png" alt="" /></a>
+            <a href="#" aria-label="Facebook">
+              <img src={Social1} alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Twitter">
+              <img src={Social2} alt="Twitter" />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img src={Social3} alt="Instagram" />
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <img src={Social4} alt="LinkedIn" />
+            </a>
           </div>
         </div>
 
@@ -37,13 +52,13 @@ function Footer() {
             <p>Home</p>
             <p>Testimonies</p>
             <p>Destinations</p>
-            <p>signinn</p>
+            <p>Sign in</p>
           </div>
           <div className="d">
             <p>About us</p>
             <p>Packages</p>
             <p>Events</p>
-            <p>Galery</p>
+            <p>Gallery</p>
           </div>
 
           <div className="d">
@@ -53,12 +68,12 @@ function Footer() {
           </div>
         </div>
 
-        <h5>Subscribe to our newspaper</h5>
+        <h5>Subscribe to our newsletter</h5>
 
         <div id="input">
           <input id="amount-input" placeholder="Input your email here" />
-          <button>
-            <img src="\src\assets\images\Group 18.png" alt="" />
+          <button aria-label="Subscribe">
+            <img src={SendIcon} alt="Send" />
           </button>
         </div>
       </footer>

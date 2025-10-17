@@ -2,6 +2,11 @@ import Banner from "../components/Banner";
 import Card from "../components/bodyCards";
 import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
+import BackLeft from '../assets/images/back button.png'
+import BackRight from '../assets/images/back button (1).png'
+import Dest1 from '../assets/images/Image Placeholder (2).svg'
+import Dest2 from '../assets/images/Image Placeholder (2).png'
+import Dest3 from '../assets/images/Image Placeholder (7).png'
 
 function Home() {
   return (
@@ -17,8 +22,8 @@ function Home() {
       </div>
 
       <div className="back">
-        <div><img src="src\assets\images\back button.png" alt="" /></div>
-        <div><img src="src\assets\images\back button (1).png" alt="" /></div>
+        <div><img src={BackLeft} alt="Previous" /></div>
+        <div><img src={BackRight} alt="Next" /></div>
       </div>
       </div>
       
@@ -73,7 +78,7 @@ function Home() {
 
         <div className="kik">
           <div className="ki">
-            <img src="\src\assets\images\Image Placeholder (2).svg" alt="" />
+            <img src={Dest1} alt="Kigali" />
             <h1>Kigali</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
@@ -82,7 +87,7 @@ function Home() {
           </div>
 
           <div className="ki">
-            <img src="\src\assets\images\Image Placeholder (2).png" alt="" />
+            <img src={Dest2} alt="Huye" />
             <h1>Huye</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
@@ -91,7 +96,7 @@ function Home() {
           </div>
 
           <div className="ki">
-            <img src="\src\assets\images\Image Placeholder (2).png" alt="" />
+            <img src={Dest2} alt="Rubavu" />
             <h1>Rubavu</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
@@ -100,7 +105,7 @@ function Home() {
           </div>
 
           <div className="ki">
-            <img src="\src\assets\images\Image Placeholder (7).png" alt="" />
+            <img src={Dest3} alt="Musanze" />
             <h1>Musanze</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat

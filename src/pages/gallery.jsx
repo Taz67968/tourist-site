@@ -1,6 +1,9 @@
 import Banner from "../components/Banner";
 import Footer from "../components/footer";
 import NavBar from "../components/NavBar";
+import Placeholder from '../assets/images/Image Placeholder.png'
+import Placeholder1 from '../assets/images/Image Placeholder (1).png'
+import PlaceholderSvg from '../assets/images/Image Placeholder (1).svg'
 
 function Gallery() {
   return (
@@ -59,7 +62,7 @@ function Gallery() {
         </div>
 
         <div className="boxone">
-          <img src="\src\assets\images\Image Placeholder.png" alt="" />
+          <img src={Placeholder} alt="Gallery item" />
           <img
             src="https://i.pinimg.com/474x/56/37/04/563704e56c598cfd86eca4f6aa59f495.jpg"
             alt=""
@@ -68,12 +71,12 @@ function Gallery() {
             src="https://i.pinimg.com/474x/41/3f/12/413f12a2c8dfd20e1c7f1d944037691c.jpg"
             alt=""
           />
-          <img src="\src\assets\images\Image Placeholder (1).png" alt="" />
+          <img src={Placeholder1} alt="Gallery item" />
           <img
             src="https://i.pinimg.com/474x/d1/38/93/d138936c2cbf4cdd02bb7a333bcd64c0.jpg"
             alt=""
           />
-          <img src="\src\assets\images\Image Placeholder (1).svg" alt="" />
+          <img src={PlaceholderSvg} alt="Gallery item" />
           <img
             src="https://i.pinimg.com/474x/e0/c4/a1/e0c4a19728b4dc228945ed5e8c0e8601.jpg"
             alt=""
