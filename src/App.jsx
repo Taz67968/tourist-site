@@ -1,27 +1,24 @@
-import Home from './pages/home'
-import About from './pages/About'
-import Gallery from './pages/gallery'
-import TourPackage from './pages/tourPackage'
-import './App.css'
-import { Route, BrowserRouter, Routes } from 'react-router'
-import ContactUs from './pages/ContactUs'
-
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Package from "./pages/Package";
+import Gallery from "./pages/Galerry";
+import Contact from "./pages/ContactUS";
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
-       <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/About/' element={<About />} />
-        <Route path='/Gallery/' element={<Gallery />} />
-        <Route path='/TourPackage/' element={<TourPackage/>}/>
-        <Route path='/ContactUS/' element={<ContactUs/>}/>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/package" element={<Package />}/>
+          <Route path="/gallery" element={<Gallery/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
